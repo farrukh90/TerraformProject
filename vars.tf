@@ -1,8 +1,6 @@
 variable "region" {}
 
-variable "appname" {
-  default = "artemis"
-}
+variable "appname" {}
 
 variable "amis" {
   type = "map"
@@ -13,9 +11,7 @@ variable "amis" {
   }
 }
 
-variable "Environment" {
-  default = "Dev"
-}
+variable "Environment" {}
 
 variable "Created_by" {
   default = "Farrukh"
