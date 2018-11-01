@@ -22,4 +22,3 @@ variable "Environment" {
 variable "Created_by" {
   default = "Farrukh"
 }
-
