@@ -1,4 +1,4 @@
-resource "aws_vpc" "main${Environment}" {
+resource "aws_vpc" "main${var.Environment}" {
   cidr_block = "10.0.0.0/16"
 
   tags {
